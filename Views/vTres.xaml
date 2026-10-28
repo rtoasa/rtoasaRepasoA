@@ -6,6 +6,7 @@
     <VerticalStackLayout>
         <Label 
             Text="REPORTE"
+            Style="{StaticResource labelGlobal}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Grid>
@@ -22,6 +23,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Label Text="Desarrollado"
+                   Style="{StaticResource labelGlobal}"
                    Grid.Row="0"
                    Grid.Column="0"/>
             <Entry x:Name="txtDesarrollado"
@@ -30,6 +32,7 @@
                    Grid.Column="1"/>
 
             <Label Text="Asignatura"
+                   Style="{StaticResource labelGlobal}"
                Grid.Row="1"
                Grid.Column="0"/>
             <Entry x:Name="txtAsignatura"
@@ -38,6 +41,7 @@
                Grid.Column="1"/>
 
             <Label Text="Nivel"
+                   Style="{StaticResource labelGlobal}"
                Grid.Row="2"
                Grid.Column="0"/>
             <Entry x:Name="txtNivel"
@@ -45,6 +49,7 @@
                Grid.Row="2"
                Grid.Column="1"/>
             <Label Text="Nota Final P1"
+                   Style="{StaticResource labelGlobal}"
                    Grid.Row="3"
                    Grid.Column="0"/>
             <Entry x:Name="txtFinal"

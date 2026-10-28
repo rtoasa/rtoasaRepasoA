@@ -3,6 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="rtoasaRepasoA.Views.vDos"
              Title="vDos">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Maroon"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="Aqua"/>
+        </Style>
+    </ContentPage.Resources>
     <VerticalStackLayout
         Spacing="20"
         Padding="20">
